@@ -1,5 +1,5 @@
 {
-  "homepage": "http://escapefromhyperisland.github.io/world4-level2",
+  "homepage": "https://escapefromhyperisland.github.io/world4-level2/",
   "name": "world4-level2",
   "version": "0.1.0",
   "private": true,
@@ -36,7 +36,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
