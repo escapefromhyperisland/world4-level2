@@ -1,7 +1,7 @@
 import React from 'react';
 import { Angelo1 } from './Angelo1';
 import { Angelo2 } from './components/Angelo2';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 export const App = () => {
   return (
