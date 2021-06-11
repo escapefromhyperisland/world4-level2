@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/world4-level2/" component={Angelo1} />
+        <Route exact path="/world4-level2" component={Angelo1} />
         <Route path="/Angelo2/" component={Angelo2} />
         <Route component={() => <h1>This page doesn't exist!! </h1>} />
       </Switch>
