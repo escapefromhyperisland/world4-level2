@@ -128,7 +128,7 @@ export const GridImages = () => {
 
   // redirect to second callenge
   if (passToChallenge2) {
-    return <Redirect to="/Angelo2" />;
+    return <Redirect to="/world4-level2/Angelo2" />;
   }
 
   return (
