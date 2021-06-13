@@ -2,6 +2,10 @@ import React from 'react';
 import { Angelo1 } from './Angelo1';
 import { Angelo2 } from './components/Angelo2';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Sound from 'react-sound';
+import Music from 'music.mp3';
+
+
 
 export const App = () => {
   return (
@@ -12,5 +16,6 @@ export const App = () => {
         <Route component={() => <h1>This page doesn't exist!! </h1>} />
       </Switch>
     </Router>
+    <Sound url={Music} playStatus={Sound.status.PLAYING} loop={true} />
   );
 };
