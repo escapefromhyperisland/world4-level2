@@ -69,6 +69,7 @@ export const Angelo2 = () => {
     ).length === 3
       ? alert('Bravissimo!')
       : null;
+    window.parent.postMessage('nextLevel');
   };
 
   showMessage();
