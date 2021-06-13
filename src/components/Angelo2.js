@@ -110,7 +110,10 @@ export const Angelo2 = () => {
           return (
             <li key={facts}>
               <div className="data-images">
-                <img src={`/imgFacts/${facts}.jpeg`} alt={`${facts}`} />
+                <img
+                  src={`/world4-level2/imgFacts/${facts}.jpeg`}
+                  alt={`${facts}`}
+                />
               </div>
             </li>
           );
