@@ -93,7 +93,10 @@ export const Angelo2 = () => {
                         ref={provided.innerRef}
                       >
                         <div className="data-images">
-                          <img src={`/imgAngelo2/${id}.png`} alt={`${name}`} />
+                          <img
+                            src={`/world4-level2/imgAngelo2/${id}.png`}
+                            alt={`${name}`}
+                          />
                         </div>
                       </li>
                     )}
